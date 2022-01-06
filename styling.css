@@ -1,32 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+
 *{
-    background-image: linear-gradient(to right, violet,lightblue);
+    background-image: linear-gradient(to right, lightcoral,lightblue);
+    font-family: 'Cairo', sans-serif;
+    /* background-color: lightcoral; */
+    color: purple;
 }
+
 
 p{
     display: block;
     text-align: center;
-    font-size: 20vmin;
+    font-size: 100px;
 }
 
-.flex{
+#flex, .item{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.heading{
-    font-size: 5vmin;
+#heading{
+    font-size: 30px;
 }
 
-.result{
-    font-size: 5vmin;
-    margin-top: 3vmin;
-}
-
-.item{
+/* #item{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     justify-content: space-around;
+} */
+
+#key, #code, #which {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
 }
