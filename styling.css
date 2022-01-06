@@ -1,0 +1,32 @@
+*{
+    background-image: linear-gradient(to right, violet,lightblue);
+}
+
+p{
+    display: block;
+    text-align: center;
+    font-size: 20vmin;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.heading{
+    font-size: 5vmin;
+}
+
+.result{
+    font-size: 5vmin;
+    margin-top: 3vmin;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+}
