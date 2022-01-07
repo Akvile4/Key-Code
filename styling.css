@@ -25,12 +25,6 @@ p{
     font-size: 30px;
 }
 
-/* #item{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-} */
-
 #key, #code, #which {
     text-align: center;
     font-size: 30px;
